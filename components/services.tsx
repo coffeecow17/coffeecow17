@@ -105,7 +105,6 @@ const itemVariants = {
 
 export function Services() {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
-  // Fixed the type definition here
   const detailsRefs = useRef<(HTMLDivElement | null)[]>([])
 
   const handleServiceClick = (index: number) => {
@@ -168,7 +167,6 @@ export function Services() {
                   }`}
                   onClick={() => handleServiceClick(index)}
                 >
-                  {/* Card content remains the same */}
                   <CardHeader>
                     <motion.div
                       className="mb-4 w-12 h-12 flex items-center justify-center rounded-lg bg-primary/10"
@@ -209,7 +207,6 @@ export function Services() {
                     }}
                     className="mt-2 bg-background border-2 border-primary rounded-lg overflow-hidden"
                   >
-                    {/* Details content remains the same */}
                     <motion.div
                       className="p-4"
                       initial={{ opacity: 0 }}
