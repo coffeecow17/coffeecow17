@@ -31,7 +31,7 @@ export function Footer() {
               </a>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <MapPin className="w-4 h-4" />
-                <span>123 Main St, Downtown</span>
+                <span>141 Water Street, Downtown Vancouver, Canada</span>
               </div>
             </div>
           </div>
