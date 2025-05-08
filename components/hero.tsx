@@ -12,7 +12,7 @@ export function Hero() {
           condition.
         </p>
         <Button size="lg" className="custom-button w-full sm:w-auto text-base" asChild>
-          <a href="#booking">Book Now</a>
+          <a href="#booking">Contact Us to Book</a>
         </Button>
       </div>
     </section>

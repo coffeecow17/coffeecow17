@@ -21,7 +21,7 @@ export function Navigation() {
             Services
           </Link>
           <Link href="/#booking" className="nav-link text-muted-foreground hover:text-primary">
-            Book Now
+            Contact Us
           </Link>
           <Link href="/#testimonials" className="nav-link text-muted-foreground hover:text-primary">
             Testimonials
@@ -41,7 +41,7 @@ export function Navigation() {
             <nav className="flex flex-col space-y-6 mt-6">
               {[
                 { href: "/#services", label: "Services" },
-                { href: "/#booking", label: "Book Now" },
+                { href: "/#booking", label: "Contact Us" },
                 { href: "/#testimonials", label: "Testimonials" },
                 { href: "/#contact", label: "Contact" },
               ].map((item) => (
