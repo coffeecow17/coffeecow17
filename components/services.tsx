@@ -105,6 +105,7 @@ const itemVariants = {
 
 export function Services() {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
+  // Fixed the type definition here
   const detailsRefs = useRef<(HTMLDivElement | null)[]>([])
 
   const handleServiceClick = (index: number) => {

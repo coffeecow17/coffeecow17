@@ -6,6 +6,7 @@ import { Testimonials } from "@/components/testimonials"
 import { GoogleReviews } from "@/components/google-reviews"
 import { Footer } from "@/components/footer"
 import { ServiceComparison } from "@/components/service-comparison"
+import { Gallery } from "@/components/gallery"
 
 export default function Page() {
   return (
@@ -15,6 +16,7 @@ export default function Page() {
         <Hero />
         <Services />
         <ServiceComparison />
+        <Gallery />
         <section className="py-20 px-4 md:px-6 bg-muted/40" id="booking">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12">Book Your Detail</h2>
