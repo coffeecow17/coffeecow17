@@ -65,7 +65,7 @@ const packages = [
   {
     id: "premium",
     name: "Premium Detail",
-    price: "$199",
+    price: "$250",
     description: "Deep cleaning inside and out",
     duration: "2 hours",
     features: features.premium,

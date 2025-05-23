@@ -27,7 +27,7 @@ const services = [
   {
     title: "Premium Detail",
     description: "Deep cleaning, waxing, and interior conditioning",
-    price: "$199",
+    price: "$250",
     icon: Sparkles,
     duration: "2 hours",
     features: [
