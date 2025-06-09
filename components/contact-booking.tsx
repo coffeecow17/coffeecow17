@@ -54,7 +54,7 @@ export function ContactBooking() {
                   className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
                 >
                   <Phone className="w-5 h-5 text-primary" />
-                  <span>(555) 123-4567</span>
+                  <span>(+778) 302-3905</span>
                 </a>
                 <a
                   href="mailto:info@apexautospa.com"
