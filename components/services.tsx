@@ -276,7 +276,7 @@ export function Services() {
                         </motion.div>
                         <motion.div variants={itemVariants} whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                           <Button className="w-full mt-4" asChild>
-                            <a href="#booking">Book This Service</a>
+                            <a href="tel:+17783023905">Call to Book</a>
                           </Button>
                         </motion.div>
                       </motion.div>

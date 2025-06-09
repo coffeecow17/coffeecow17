@@ -162,7 +162,7 @@ export function ServiceComparison() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <div className="text-sm text-muted-foreground">1 hour</div>
+                  <div className="text-sm text-muted-foreground">{pkg.duration}</div>
                   <ul className="space-y-2">
                     {pkg.features.map((feature, index) => (
                       <li key={index} className="flex items-start gap-2">
@@ -190,7 +190,7 @@ export function ServiceComparison() {
                 </CardContent>
                 <CardFooter>
                   <Button className="w-full" asChild>
-                    <a href="#booking">Book {pkg.name}</a>
+                    <a href="tel:+17783023905">Call to Book</a>
                   </Button>
                 </CardFooter>
               </Card>

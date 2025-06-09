@@ -16,11 +16,11 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="space-y-3 text-sm md:text-base">
               <a
-                href="tel:+15551234567"
+                href="tel:+17783023905"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                <span>(555) 123-4567</span>
+                <span>(+778) 302-3905</span>
               </a>
               <a
                 href="mailto:info@apexautospa.com"

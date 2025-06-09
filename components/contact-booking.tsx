@@ -50,7 +50,7 @@ export function ContactBooking() {
               <h3 className="font-semibold text-lg">Our Details</h3>
               <div className="space-y-3">
                 <a
-                  href="tel:+15551234567"
+                  href="tel:+17783023905"
                   className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
                 >
                   <Phone className="w-5 h-5 text-primary" />
@@ -81,6 +81,12 @@ export function ContactBooking() {
                 Contact us by phone or email to schedule your appointment. We'll discuss your vehicle's needs and find
                 the perfect service package for you.
               </p>
+            </div>
+
+            <div className="pt-4">
+              <Button size="lg" className="w-full custom-button" asChild>
+                <a href="tel:+17783023905">Call Us Now</a>
+              </Button>
             </div>
           </CardContent>
         </Card>
